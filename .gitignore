@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+*.json
+data.json
+*.db
+*.sqlite
+
+# Model files (если нужно исключить из git)
+# model.safetensors
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
