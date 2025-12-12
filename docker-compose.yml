@@ -34,6 +34,7 @@ services:
       TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID}
       API_ID: ${API_ID}
       API_HASH: ${API_HASH}
+      AUTO_LOAD_DATA: ${AUTO_LOAD_DATA:-true}
     volumes:
       - ./model:/app/model
       - ./videos.json:/app/videos.json
